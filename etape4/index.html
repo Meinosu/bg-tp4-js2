@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="etape1.css">
+    <script src="script.js" defer></script>
+    <title>tp4</title>
+</head>
+
+<body>
+    <div id="table_container">
+        <table border="1">
+            <tr>
+                <th>N°</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Points</th>
+                <th>Select</th>
+            </tr>
+        </table>
+
+        <div id="container_summary">
+            <p id="p1">0 ligne(s)</p>
+            <p id="p2"></p>
+            <p id="p3">Total Point(s)</p>
+        </div>
+
+        <div>
+            <button onclick="doInsert('nom', 'prenom', 10)">Ajouter</button>
+            <button onclick="ConsoleTableau()">Console Tableau</button>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+#table_container {
+    width: 520px;
+    margin: 30px auto;
+}
+
+#table_container table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    color: #333;
+    height: auto;
+}
+
+
+#table_container th {
+    background-color: #0787bd;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+
+#table_container td {
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    height: 20px;
+}
+
+
+#table_container .col_number {
+    text-align: center;
+    width: 10%;
+}
+
+
+#table_container .col_text {
+    text-align: left;
+    width: 32%;
+}
+
+#table_container .col_chbkbox {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#table_container input[type="checkbox"] {
+    display: block;
+    margin: auto;
+}
+
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 12px;
+    border: 1px solid #ddd;
+    border-top: none;
+    font-weight: bold;
+}
+
+#container_summary p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+#form_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_label {
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.form_field {
+    width: 80%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form_container button {
+    align-self: flex-end;
+    padding: 6px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+#container_btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+#container_btn button {
+    padding: 6px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-consol {
+    background-color:brown;
+}
+
+.btn-del {
+    background-color: red;
+}
